@@ -78,6 +78,20 @@ void ColorModel::Draw(void)
 	glUniformMatrix4fv(eye_id, 1, GL_FALSE, &(*(m_eye_rbt))[0][0]);
 	glUniformMatrix4fv(model_id, 1, GL_FALSE, &(*(m_model_rbt))[0][0]);
 
+
+//    struct Light {
+//        glm::vec3 position;
+//        glm::vec3 intensities; //a.k.a. the color of the light
+//    };
+//
+//    Light gLight;
+//    gLight.position = glm::vec3(0,0,10);
+//    gLight.intensities = glm::vec3(1,0,0);
+//    GLint loc = glGetUniformLocation(m_glsl_program_id,"Light.position");
+//    GLint loc2 = glGetUniformLocation(m_glsl_program_id,"Light.intensities");
+//
+//    glUniform3f(loc,gLight.position.x,gLight.position.y,gLight.position.z);
+//    glUniform3f(loc2,gLight.intensities.x,gLight.intensities.y,gLight.intensities.z);
     //set up the VAO
 	glBindVertexArray(m_vertex_array_id);
 	glEnableVertexAttribArray(0);

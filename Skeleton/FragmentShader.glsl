@@ -6,18 +6,20 @@ in vec3 fragmentNormal;
 in vec3 fragmentColor;
 
 // Ouput data
-out vec3 color;
+out vec4 color;
 
 uniform mat4 ModelTransform;
 uniform mat4 Eye;
 uniform mat4 Projection;
 
 void main(){
-	vec3 tolight = normalize(vec3(1.0,1.0,1.0) - fragmentPosition);
+    // L = lightPosition - surfacePosition
+	vec3 tolight = normalize(vec3(0,0,0)-fragmentPosition);
 	vec3 normal = normalize(fragmentNormal);
 
-	float diffuse = max(0.0, dot(normal, tolight));
-	vec3 intensity = fragmentColor * diffuse;
+	float diffuse = max(0.0, dot(normal, tolight) / (length(tolight) * length(normal)));
 
-	color = pow(intensity, vec3(1.0/2.2)); // Apply gamma correction
+	vec3 intensity = fragmentColor * diffuse;
+    color = vec4(intensity,1);
+//	color = pow(intensity, vec3(2.2/2.2)); // Apply gamma correction
 }

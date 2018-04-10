@@ -103,6 +103,7 @@ void TextureModel::Draw(void)
 	glUniformMatrix4fv(eye_id, 1, GL_FALSE, &(*(m_eye_rbt))[0][0]);
 	glUniformMatrix4fv(model_id, 1, GL_FALSE, &(*(m_model_rbt))[0][0]);
 
+
     //texture
     glActiveTexture(m_color_texture->GetTexture());
     glBindTexture(GL_TEXTURE_2D, m_color_texture->GetTexture());
