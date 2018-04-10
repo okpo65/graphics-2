@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tinyobjloader"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ExternalProjects\;CMake Files\ExternalProjects\assimp-3.3.1\;CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\;CMake Files\ExternalProjects\assimp-3.3.1\code\;CMake Files\ExternalProjects\assimp-3.3.1\tools\;CMake Files\ExternalProjects\assimp-3.3.1\tools\assimp_cmd\;CMake Files\ExternalProjects\assimp-3.3.1\test\;CMake Files\ExternalProjects\assimp-3.3.1\test\headercheck\;CMake Files\ExternalProjects\cmake-modules-master\;CMake Files\ExternalProjects\cmake-modules-master\launcher-templates\;CMake Files\ExternalProjects\glfw-3.2.1\;CMake Files\ExternalProjects\glfw-3.2.1\CMake\;CMake Files\ExternalProjects\glfw-3.2.1\CMake\modules\;CMake Files\ExternalProjects\glfw-3.2.1\src\;CMake Files\ExternalProjects\glfw-3.2.1\examples\;CMake Files\ExternalProjects\glfw-3.2.1\tests\;CMake Files\ExternalProjects\soil-1.16\;CMake Files\ExternalProjects\tinyobjloader-1.0.6\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\ExternalProjects\;CMake Files\cmake-build-debug\ExternalProjects\assimp-3.3.1\;CMake Files\cmake-build-debug\ExternalProjects\assimp-3.3.1\test\;CMake Files\cmake-build-debug\ExternalProjects\assimp-3.3.1\test\gtest\;CMake Files\cmake-build-debug\ExternalProjects\assimp-3.3.1\test\gtest\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyobjloader">
+				<Option output="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/libtinyobjloaderd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/include/GLFW"/>
+					<Add directory="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glew-1.9.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 tinyobjloader"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyobjloader/fast">
+				<Option output="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/libtinyobjloaderd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/include/GLFW"/>
+					<Add directory="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glew-1.9.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 tinyobjloader/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/tinyobjloader-1.0.6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/tiny_obj_loader.cc">
+			<Option target="tinyobjloader"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/tiny_obj_loader.h">
+			<Option target="tinyobjloader"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/revision.h.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/assimp-config.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/assimp-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/assimp.pc.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/revision.h.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/assimp-config.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/assimp-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/assimp.pc.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/FindDirectX.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/AddGTest.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/FindDirectX.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/cmake-modules/AddGTest.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\code\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\code\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/tools/assimp_cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\tools\assimp_cmd\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/tools/assimp_cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\tools\assimp_cmd\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\test\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\test\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/test/headercheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\test\headercheck\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/assimp-3.3.1/test/headercheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\assimp-3.3.1\test\headercheck\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/cmake-modules-master/CreateLaunchers.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\cmake-modules-master\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/cmake-modules-master/CleanDirectoryList.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\cmake-modules-master\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/cmake-modules-master/MSVCMultipleProcessCompile.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\cmake-modules-master\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/cmake-modules-master/FindGDB.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\cmake-modules-master\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/cmake-modules-master/launcher-templates/targetlauncher.sh.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\cmake-modules-master\launcher-templates\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\examples\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\examples\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\tests\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/glfw-3.2.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\glfw-3.2.1\tests\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/soil-1.16/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\soil-1.16\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\tinyobjloader-1.0.6\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/tinyobjloader-config.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\tinyobjloader-1.0.6\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/tinyobjloader.pc.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\tinyobjloader-1.0.6\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalProjects\tinyobjloader-1.0.6\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/tinyobjloader-config.cmake.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\tinyobjloader-1.0.6\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/ExternalProjects/tinyobjloader-1.0.6/tinyobjloader.pc.in">
+			<Option virtualFolder="CMake Files\ExternalProjects\tinyobjloader-1.0.6\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\ExternalProjects\assimp-3.3.1\test\gtest\tmp\"/>
+		</Unit>
+		<Unit filename="/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\ExternalProjects\assimp-3.3.1\test\gtest\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

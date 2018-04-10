@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+4fdd8fd88e796736d6ae811793cf4d0b ExternalProjects/assimp-3.3.1/test/CMakeFiles/gtest
+d2bbb613ad67c56c8546601f4c82e972 ExternalProjects/assimp-3.3.1/test/CMakeFiles/gtest-complete
+59a163c549da3ae7926c5e54f714d893 ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-build
+0dfcef1bb7d07d6b4e90bd74c2017fee ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-configure
+ce8008acd15d181b8d1452728b01b02a ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-download
+914d6a516ace8f9d1c94d89ade297e84 ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-install
+6bbf63489e61963ccd02d291c9cfcb24 ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-mkdir
+9e0d501fc85a60a499cae65da5e60d7b ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-patch
+0c9759ec25f731d958709831198c9471 ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-update
+83d67e5cce99ccb491742dec0683c366 ExternalProjects/glfw-3.2.1/CMakeFiles/uninstall

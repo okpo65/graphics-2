@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/CMakeFiles/gtest"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/CMakeFiles/gtest.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/CMakeFiles/gtest-complete.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-install.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-download.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-update.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-patch.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-configure.rule"
+		},
+		
+		{
+			"file" : "/Users/jihwanmac/Desktop/cs580-hw2-skeleton/cmake-build-debug/ExternalProjects/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gtest" ],
+		"name" : "gtest"
+	}
+}
